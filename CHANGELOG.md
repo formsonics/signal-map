@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.7
+- Add approved 512×512 Signal Map marketplace icon and browser favicon.
+- Preserve FØRM / Førm branding with the slashed Ø / ø.
+- Update repository links for FormDevelopment. No routing behavior changes.
+
+
 ## 0.1.6 — Release candidate
 - Fix Locate rejection caused by an unsupported context-focus write.
 - Add real-engine UI verification, screenshots, data-handling guide and support contact.

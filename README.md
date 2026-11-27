@@ -3,18 +3,20 @@
 
 Read-only LUNA routing inspector with signal-path diagrams and evidence-based diagnostics.
 
-**Status: released; marketplace review pending.** Current version: **0.1.6**.
+**Status: GitHub release available. UA Universe submission is handled by the publisher.** Current version: **0.1.7**.
 Not yet submitted to UA Universe. Not an AU/VST plugin. Targets LUNA 3.1.2 or compatible newer hosts; broader compatibility is not verified.
 
 ## Preview
 
-![Signal path preview](docs/images/demo-path.png)
+![Signal Map icon](app/icon.png)
+
+[Signal path screenshot](docs/images/demo-path.png)
 
 *Labeled synthetic demo, not a live audio session. [Session map preview](docs/images/demo-map.png).*
 
 ## Getting started
 See [User guide](docs/USER-GUIDE.md) for installation, workflows, limitations and backups.
-Download [Signal Map 0.1.6](https://github.com/formsonics/signal-map/releases/tag/v0.1.6). Native installation and primary workflow were confirmed by the owner; see verification evidence for scope.
+Download [Signal Map 0.1.7](https://github.com/FormDevelopment/signal-map/releases/tag/v0.1.7). Native installation and primary workflow were confirmed by the owner; see verification evidence for scope.
 
 ## Repository layout
 - `app/` — add-on runtime, manifest, branding and third-party notices
@@ -49,4 +51,4 @@ Tests use mock engines and do not prove native LUNA behavior.
 - Freeware, copyright retained; **not open source**. See [LICENSE.txt](LICENSE.txt).
 
 ## Suite
-[Phase Lab](https://github.com/formsonics/phase-lab) · [Signal Map](https://github.com/formsonics/signal-map) · [Lyric Prompter](https://github.com/formsonics/lyric-prompter) · [Recall Atlas](https://github.com/formsonics/recall-atlas) · [Revision Desk](https://github.com/formsonics/revision-desk) · [Take Notes](https://github.com/formsonics/take-notes)
+[Phase Lab](https://github.com/formsonics/phase-lab) · [Signal Map](https://github.com/FormDevelopment/signal-map) · [Lyric Prompter](https://github.com/formsonics/lyric-prompter) · [Recall Atlas](https://github.com/formsonics/recall-atlas) · [Revision Desk](https://github.com/formsonics/revision-desk) · [Take Notes](https://github.com/formsonics/take-notes)
