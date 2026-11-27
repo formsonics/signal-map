@@ -1,0 +1,20 @@
+{
+  "name": "@formsonics/signal-map",
+  "version": "0.1.5",
+  "private": true,
+  "type": "module",
+  "description": "Read-only LUNA routing inspector with signal-path diagrams and evidence-based diagnostics.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node scripts/setup-sdk.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "pack": "node scripts/pack.mjs",
+    "serve": "node .sdk/plugins/ua-luna-builder/sdk/cli.js serve app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formsonics/signal-map.git"
+  }
+}

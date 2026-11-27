@@ -1,0 +1,10 @@
+/* Shared Førm Sonics brand assets. Keep identical across LUNA add-ons. */
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('./dm-sans-400.ttf') format('truetype')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:500;font-display:swap;src:url('./dm-sans-500.ttf') format('truetype')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:600;font-display:swap;src:url('./dm-sans-600.ttf') format('truetype')}
+:root{--form-font:'DM Sans',Arial,sans-serif}
+body,button,input,select,textarea,h1,h2,h3,table,svg text{font-family:var(--form-font)!important}
+header h1{font-weight:600!important}
+header .form-byline{display:inline-flex!important;align-items:center;gap:6px;font-family:var(--form-font)!important;font-size:12px!important;font-weight:400!important;font-style:normal;line-height:22px;letter-spacing:0!important;white-space:nowrap;text-transform:none!important}
+header .form-byline .form-symbol{display:block;flex:0 0 22px;width:22px!important;height:20px!important;object-fit:contain;max-width:none;opacity:1;filter:invert(1)}
+html[data-form-theme='light'] header .form-byline .form-symbol{filter:none}

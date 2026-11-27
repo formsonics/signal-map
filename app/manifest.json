@@ -1,0 +1,26 @@
+{
+  "package_name": "Signal Map",
+  "id": "net.formsonics.signal-map",
+  "title": "Signal Map",
+  "version": "0.1.5",
+  "manufacturer": "F\u00f8rm Sonics",
+  "description": "Read-only LUNA routing inspector with signal-path diagrams and evidence-based diagnostics.",
+  "categories": [
+    "Mixing & Mastering",
+    "Workflow"
+  ],
+  "sdk_version": "3.1.2",
+  "min_luna_version": "3.1.2",
+  "engines": [
+    "luna"
+  ],
+  "html": "index.html",
+  "target": "window",
+  "floating": true,
+  "show_with_session": false,
+  "width": 1200,
+  "height": 680,
+  "min_width": 960,
+  "min_height": 620,
+  "unload_on_close": true
+}
