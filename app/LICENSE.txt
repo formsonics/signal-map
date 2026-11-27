@@ -1,0 +1,14 @@
+Signal Map — Freeware License
+Copyright (c) 2026 Førm Sonics. All rights reserved.
+
+This license covers original Signal Map code, documentation and artwork supplied by Førm Sonics, not third-party components identified below.
+
+Permission is granted, without charge, to download, install and use official Signal Map releases for personal or commercial audio work, and to retain backup copies. Using Signal Map does not give Førm Sonics any rights in your recordings, sessions or other creative output. No credit is required in your creative work.
+
+This is not an open-source license. Public access to the repository does not grant permission to redistribute its original source or binaries, publish modified versions, rebrand the add-on, sell it, sublicense it, or incorporate its original code or artwork into another product without separate written permission from Førm Sonics. Share the official download link rather than redistributing the files. Rights that cannot lawfully be restricted remain unaffected.
+
+Third-party components are excluded from these restrictions and retain their own licenses: the Universal Audio LUNA Builder SDK is provided under its supplied Apache License 2.0, NOTICE and Supplemental Terms; DM Sans is supplied under the SIL Open Font License 1.1. Copies accompany this software. Nothing in this license reduces rights granted by those third-party licenses.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR DAMAGES ARISING FROM USE OF THE SOFTWARE. This does not exclude liability or statutory rights that cannot lawfully be excluded.
+
+Support and permission requests: FORMsonics@proton.me

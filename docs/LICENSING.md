@@ -1,9 +1,11 @@
 # Licensing and distribution
 
-Original Førm Sonics code/art licensing and commercial distribution are pending owner decision. No open-source license is granted for original project material by this preparation repository. Do not publish until that decision is recorded.
+Signal Map is a free download, with copyright retained by Førm Sonics. It is **not open source**. See [LICENSE.txt](../LICENSE.txt) for the usage grant and restrictions. You may use official releases in personal and commercial audio work. Rebranding, resale, redistribution or publishing derivatives of original project material requires separate permission. Public source visibility is not a permissive source license.
 
-Third-party components retain their own terms, independently of original app code:
-- Universal Audio LUNA Builder SDK 3.1.2 runtime: Apache License 2.0, NOTICE and Supplemental Terms, included unchanged under `app/vendor/licenses/`.
-- DM Sans fonts: SIL Open Font License 1.1, included under `app/brand/DM-Sans-LICENSE.txt`.
+Third-party components retain their own rights and terms:
+- Universal Audio LUNA Builder SDK 3.1.2: Apache License 2.0, NOTICE and Supplemental Terms, unchanged in `app/vendor/licenses/`.
+- DM Sans fonts: SIL Open Font License 1.1, in `app/brand/DM-Sans-LICENSE.txt`.
 
-The original-symbol SVG is used for the byline; the rejected 3D-rendered PNG is excluded. Review all asset provenance and rights before the marketplace rights attestation. Public release of HTML/JS allows users to inspect shipped code even without an open-source license. This file is a record of release decisions still needed, not legal advice or a substitute for the component terms.
+The byline SVG is the upright tracing of the original FORM symbol; the obsolete 3D-rendered loading PNG is excluded. No demo audio, MIDI recordings or private session files are bundled. Demo routing is synthetic.
+
+Support and permission requests: FORMsonics@proton.me

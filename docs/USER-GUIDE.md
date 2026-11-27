@@ -1,23 +1,31 @@
-# Signal Map 0.1.5
+# Signal Map
+by Førm Sonics
 
-LUNA workflow add-on by Førm Sonics. Read-only routing inspection, not an AU/VST insert.
+Signal Map visualizes LUNA tracks, buses, main outputs and sends. It is a LUNA add-on, not an AU/VST insert.
 
-## Install and open
-Unzip the delivery ZIP and open Signal-Map-0.1.5.lunaaddon on the LUNA machine. In a compatible LUNA Builder-enabled version, open Add Ons > Windows > Signal Map. Requires SDK/LUNA 3.1.2 or compatible newer host. Installer and native host behavior remain unverified.
+## Install
+Open the versioned `.lunaaddon` file with LUNA, confirm installation, then open Signal Map from the add-on windows menu. Requires LUNA 3.1.2 or compatible newer host; currently tested on macOS. New installations replace older versions with the same add-on ID.
 
-## Use
-Connect to LUNA, select a track or bus, and follow its main output and send connections. Click a diagram node to inspect it; Trace Selected Track makes it the root. Session Map shows up to 512 nodes, with readable framing, panning and a minimap. Search matches both tracks and buses. Fit, zoom and drag navigate the diagram. Refresh rereads the session. Locate explicitly selects the channel and opens the LUNA mixer without changing audio controls.
+## Explore a session
+1. Open a LUNA session and connect Signal Map. Connect disappears when connected and returns after a disconnection.
+2. Select a track or bus from the sidebar; search matches both kinds.
+3. Use Signal path to trace a selected channel downstream, or Session map for the broader graph.
+4. Toggle Sends to include send connections. Downstream and Isolate path apply to signal-path mode.
+5. Pan by dragging empty map space or scrolling; Ctrl/Command-scroll zooms. Shift-scroll pans horizontally. Readable fit preserves useful label size rather than shrinking a large session into unreadable cards. The Session map overview provides point-and-click navigation.
+6. Click a node to inspect its connections and state. Double-click to trace its path. Focus selected centers it.
+7. Locate in LUNA explicitly selects the channel and opens the mixer. It does not change gain, routing, mute, solo, effects or transport playback.
+8. Refresh rereads routing. After disconnect, the last view is marked stale; reconnect explicitly.
 
-The large primary logo is SIGNAL MAP with the small byline "by Førm Sonics". No large FORM logo.
+## Interpretation and boundaries
+- Shows up to 512 graph nodes with a truncation notice when necessary.
+- Mute, solo and record badges are indicators, not controls.
+- Main output and send connections are inspected; cue routes, plugin internals, physical cabling, Apollo Console and hardware monitoring are outside scope.
+- Missing/unavailable data is shown as unknown. A silent meter alone does not identify a fault.
+- Level and peak are values exposed by the SDK, not a separate RMS or calibrated loudness measurement.
+- Demo uses explicitly labeled synthetic routing and static meters. It is not an audio test or a live session.
 
-## Boundaries
-- Reads main and send routes only. Cue routes, plugin internal paths, Apollo Console, physical cables and hardware monitoring are not inspected.
-- Missing data is unknown, not evidence of successful routing or a fault. Silent meter levels alone do not diagnose a fault. Solo audibility and send behavior are not inferred.
-- LEVEL is the SDK meter value, not a claimed RMS measurement. PEAK is the SDK peak value. No metering reset or audio control writes.
-- Mute, solo and record indicators are not buttons. The only session UI mutation is explicit Locate.
-- Demo mode uses clearly labeled synthetic routing and static meter values. Use its scenario selector for muted, missing, unavailable and cycle examples.
-- No automatic retries. Use Connect again after opening LUNA.
+## Data and updates
+Signal Map stores no user library, session notes, account credentials or preferences. The selected channel, search and zoom are temporary in-memory UI state and reset when the window reloads. It reconstructs routing from the connected session; it does not save a separate graph. There is no add-on data export/import or migration to perform. Save your work in LUNA normally. Native installation/update and embedded-webview behavior must still be verified separately from browser reload checks.
 
-## Verification
-12 Node checks pass, including graph convergence/cycles, missing versus unknown, silence, multiple assignments, send filtering, caps, stale data and an official SDK MockEngine read that emits only get/subscribe requests. Browser checks cover demo scenarios, sends toggle, search and branding; screenshot inspected. Native LUNA launch, real subscription updates, real meter streams, navigation, disconnect/reopen and large real sessions remain pending. This is an evaluation build, not a native-host-validated release. 
-
+## Troubleshooting
+If no session appears, open one in LUNA and reconnect. If disconnected, do not interpret stale meter/routing values as current. An unavailable connection may reflect unsupported SDK data rather than broken audio. Use LUNA itself for routing edits.
