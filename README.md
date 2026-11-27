@@ -49,6 +49,3 @@ Tests use mock engines and do not prove native LUNA behavior.
 - Use repository issues for development reports; do not attach private sessions, client material or credentials.
 - Support: FORMsonics@proton.me
 - Freeware, copyright retained; **not open source**. See [LICENSE.txt](LICENSE.txt).
-
-## Suite
-[Phase Lab](https://github.com/formsonics/phase-lab) · [Signal Map](https://github.com/FormDevelopment/signal-map) · [Lyric Prompter](https://github.com/formsonics/lyric-prompter) · [Recall Atlas](https://github.com/formsonics/recall-atlas) · [Revision Desk](https://github.com/formsonics/revision-desk) · [Take Notes](https://github.com/formsonics/take-notes)
