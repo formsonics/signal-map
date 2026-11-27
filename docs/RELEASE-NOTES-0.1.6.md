@@ -13,6 +13,6 @@ LUNA routing inspection by Førm Sonics.
 
 Limitations: cue routing, plugin internals, hardware cabling and Apollo Console are not inspected. Graphs are limited to 512 nodes. Demo data is synthetic. No automatic audio fixes or routing edits.
 
-Compatibility: LUNA 3.1.2 or compatible newer host; macOS validation. Final native-installation status is tracked in VERIFICATION.md; mock/browser checks alone do not certify embedded LUNA behavior.
+Compatibility: LUNA 3.1.2 or compatible newer host; macOS validation. Native installation and primary workflow confirmed by the owner; see docs/VERIFICATION.md in the repository for evidence scope.
 
 Freeware; copyright retained. Not open source. Support: FORMsonics@proton.me.

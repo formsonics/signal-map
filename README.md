@@ -3,7 +3,7 @@
 
 Read-only LUNA routing inspector with signal-path diagrams and evidence-based diagnostics.
 
-**Status: release candidate under final verification.** Current version: **0.1.6**.
+**Status: released; marketplace review pending.** Current version: **0.1.6**.
 Not yet submitted to UA Universe. Not an AU/VST plugin. Targets LUNA 3.1.2 or compatible newer hosts; broader compatibility is not verified.
 
 ## Preview
@@ -14,7 +14,7 @@ Not yet submitted to UA Universe. Not an AU/VST plugin. Targets LUNA 3.1.2 or co
 
 ## Getting started
 See [User guide](docs/USER-GUIDE.md) for installation, workflows, limitations and backups.
-There is no public release attached yet. Native acceptance and update-persistence checks remain release gates.
+Download [Signal Map 0.1.6](https://github.com/formsonics/signal-map/releases/tag/v0.1.6). Native installation and primary workflow were confirmed by the owner; see verification evidence for scope.
 
 ## Repository layout
 - `app/` — add-on runtime, manifest, branding and third-party notices

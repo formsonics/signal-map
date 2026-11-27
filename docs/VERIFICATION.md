@@ -17,9 +17,7 @@ Passed:
 
 The test exposed a real bug: `focus: mixer` is not a valid session context focus. 0.1.6 omits that write, selects the track and uses the GUI mixer-page API. The corrected pass verified the result. Temporary tracks remained only in the disposable test session; rename was restored and the session saved/closed. No working session, Apollo settings or playback was changed.
 
-## Native acceptance still required
-- Install 0.1.6 over the existing add-on, open its embedded LUNA window, verify name/version and rendering.
-- Exercise selection/Locate, session switch, reconnect and close/reopen in the embedded window.
-- Observe live meter responsiveness on a representative session and check CPU/UI behavior.
+## Owner-reported native acceptance — November 27, 2026
+After being asked to install 0.1.6 and confirm its embedded window, routing, Locate and live meters, the owner reported that everything works on their end. This is owner-reported acceptance, not agent-observed native UI evidence or a performance benchmark.
 
-The owner previously reported Signal Map working in native LUNA, but this is not full 0.1.6 native acceptance. Browser/native-engine evidence is not embedded-WebKit evidence. The add-on stores no user data, so there is no saved-library migration/export/import requirement.
+The real-engine/browser lifecycle tests above separately cover disconnect/reconnect and session close/reopen. Signal Map stores no user library, so saved-library migration does not apply. Broader host/OS compatibility and exhaustive long-session performance are not certified.
