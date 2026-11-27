@@ -13,9 +13,10 @@
 - [x] Freeware with copyright retained; no open-source grant
 - [x] Labeled demo screenshots and 0.1.6 release notes
 - [x] File/rights/privacy review before making repository public
-- [ ] Stable tag and non-draft, non-prerelease release with `.lunaaddon`
+- [x] Stable tag and non-draft, non-prerelease release with `.lunaaddon`
 - [x] UA official local archive/content check: no problems or review flags
-- [ ] Public release download checksum and complete UA repository checker
-- [ ] UA submission, review and marketplace installation verified
+- [x] Public release download checksum and complete UA repository checker (no problems or review flags)
+- [x] UA submission: https://github.com/uaudio-labs/marketplace/issues/174
+- [ ] UA acceptance/listing and marketplace installation verified
 
 No public release or submission is implied by completion of repository setup.
